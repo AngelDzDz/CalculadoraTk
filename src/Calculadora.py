@@ -15,9 +15,6 @@ class Ventana(Frame):
         entrada= Entry(root,width=90,textvariable=var1)
         entrada.pack()
 
-        def executor():
-            print("kkota")
-
         def nueve():
             entrada.insert(END,"9")
         
